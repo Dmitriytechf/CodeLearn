@@ -150,6 +150,7 @@ class CodeLearnApp(QMainWindow):
         self.def_label.setText(self.current_card['definition'])
         for btn in [self.show_def_btn, self.know_btn, self.dont_know_btn]:
             btn.setEnabled(True)
+
         self.update_progress()
 
     def show_definition(self):
@@ -166,7 +167,8 @@ class CodeLearnApp(QMainWindow):
     def mark_dont_know(self):
         '''Отметка "Не знаю" - добавляет термин в список для повторения'''
         if self.current_card:
-            # Добавляем в список сложных. Пока просто для соответствия ТЗ
+            # Добавляем в список сложных.
+            # Пока просто для соответствия ТЗ
             self.hard_cards.add(self.current_card['id'])
             self.next_card()
 
