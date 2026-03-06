@@ -1,4 +1,4 @@
-# Project: *CodeLearn*
+# Project: 💡 *CodeLearn*
 
 **Давай учиться программированию вместе!** 🚀 *CodeLearn* - твой надежный проводник в мире высоких технологий.
 
@@ -21,6 +21,9 @@
 ✅ Подробный просмотр определений
 
 ## Внешний вид
+<img width="688" height="927" alt="image" src="https://github.com/user-attachments/assets/070d43e5-40bf-4ab3-ba95-deaa2f86d73d" />
+<img width="670" height="919" alt="image" src="https://github.com/user-attachments/assets/c6f0910b-b9ca-4132-9fd7-9ae49cbaca62" />
+<img width="687" height="920" alt="image" src="https://github.com/user-attachments/assets/ca67ea68-dca6-4c06-9f67-e4d77e7898e8" />
 
 
 ## 🚀 Установка
