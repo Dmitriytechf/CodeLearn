@@ -59,7 +59,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
-#### Формат json файла
+## Формат json файла
+
 **Пример `terms.json`:**
 ```json
 [
@@ -86,7 +87,7 @@ python main.py
 - [ ] Увеличение базы знаний
 
 
-## **CodeLearn - ваш помощник в программировании**
+## 🧠 **CodeLearn - ваш помощник в программировании**
 
 ## 👨‍💻 Автор
 [Дмитрий] - [https://github.com/Dmitriytechf]
