@@ -22,30 +22,14 @@ DEFINITION_STYLE = '''
         color: white;
         border-radius: 10px;
         padding: 20px;
-        max-width: 1000px;
+        max-width: 800px;
+        min-width: 600px;
+        max-height: 300px;
     }
 '''
 
 # стиль для конпки случайного термина
 RANDOM_BUTTON_STYLE = '''
-    QPushButton {
-        background-color: rgba(128, 0, 255, 180);
-        color: white;
-        font-weight: bold;
-        border: none;
-        border-radius: 30px;
-        font-size: 24px;
-    }
-    QPushButton:hover {
-        background-color: rgba(128, 0, 255, 220);
-        border: 2px solid white;
-    }
-    QPushButton:pressed {
-        background-color: rgba(100, 0, 200, 220);
-    }
-'''
-
-HARD_BUTTON_STYLE = '''
     QPushButton {
         background-color: rgba(128, 0, 255, 180);
         color: white;
@@ -86,7 +70,15 @@ TEXT_STYLE = 'color: white;'
 
 # размеры кнопок
 RANDOM_BUTTON_SIZE = 60
-HARD_BUTTON_HEIGHT = 60
-HARD_BUTTON_WIDTH = 200
 BUTTON_HEIGHT = 60
 BUTTON_WIDTH = 400
+
+# Экран
+WINDOW_WIDTH = 700
+WINDOW_HEIGHT = 900
+WINDOW_X = 550
+WINDOW_Y = 70
+
+# Прогресс-бара
+PROGRESS_WIDTH = 500
+PROGRESS_HEIGHT = 27
